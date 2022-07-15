@@ -1,0 +1,110 @@
+<html>
+   <head>
+        <meta charset="UTF-8">
+       <title>Student Registration Form</title>
+
+    </head>
+    <style>
+     body{
+    color: rgb(13, 35, 163);
+ }  
+    </style>
+   
+  <body style="background: url(https://free4kwallpapers.com/uploads/originals/2019/04/08/morning-coffee-wallpaper.jpg); background-size: 100% 160%;">
+     <h3 style="font-size:40px;">STUDENT REGISTRATION FORM </h3>
+     <marquee behavior="" direction="">WELCOME TO STUDENT REGISTRATION (by Edson Nyoni)</marquee>
+        <table align="center" cellpadding = "10">
+ 
+
+           <tr>
+              <td>FIRST NAME</td>
+                   <td><input type="text" name="First_Name" maxlength="30"/>
+                      (max 30 characters)
+                   </td>
+            </tr>
+ 
+
+            <tr>
+                <td>LAST NAME</td>
+                    <td><input type="text" name="Last_Name" maxlength="30"/>
+                       (max 30 characters)
+                </td>
+            </tr>
+
+             <tr> 
+	            <td>UNIVERSITY</td>
+	                <td>
+                        <select>         
+                           <option value=""> SELECT UNIVERSITY </option>         
+                           <option> PKU </option>         
+                           <option> TSU </option>         
+                           <option> ZNU </option>       
+                           <option> SJTU </option> 
+	                       <option> ZJNU </option> 
+                        </select>
+                    </td>
+	        </tr>
+	    
+             <tr>
+                <td>GENDER</td>
+                    <td>
+                         Male <input type="radio" name="Gender" value="Male" />
+                         Female <input type="radio" name="Gender" value="Female" />
+                    </td>
+             </tr>
+     
+	         <tr>
+	            <td>STUDENT ID</td>
+	                <td>
+	                    <input type="digits" id="name" name="name" placeholder="input student id" maxlength="15" />
+	                        (max 15 digits)
+	                </td>
+	        </tr>
+ 
+            <tr>
+                <td>PHONE NUMBER</td>
+                    <td>
+                        <input type="text" name="Mobile_Number"placeholder="input phone number" maxlength="15" />
+                    </td>
+            </tr> 
+	    
+             <tr>
+                <td>Password</td>
+                     <td><input type="password" name="Psw" placeholder="input password" maxlength="10" />
+                 </td>
+            </tr>
+ 
+             <tr>
+	            <td>PHOTO</td>
+	                <td>
+                        photo:
+                         <input type="file" name="file" id=""> <br>
+        	
+	                </td>
+	         </tr>
+   
+            <tr>
+               <td>EDUCATION</td>
+                    <td>
+                       PHD
+                          <input type="radio" name="Course_PHD" value="PHD">
+                       MASTERS
+                          <input type="radio" name="Course_MASTERS" value="NASTERS">
+                       BACHELOR
+                          <input type="radio" name="Course_BACHELOR" value="BACHELOR">
+                       HIGH SCHOOL
+                          <input type="radio" name="Course_HIGH SCHOOL" value="HIGH SCHOOL">
+                    </td>
+            </tr>
+    <form>
+            <tr>
+                    <td colspan="2" align="center">
+                          <input type="submit" value="Submit">
+                          <input type="reset" name="" id="">
+                    </td>
+            </tr>
+        </table>
+     
+    </form>
+  </body>
+</html>
